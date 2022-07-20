@@ -14,6 +14,10 @@ const config = {
     path: path.join(__dirname + "/dist"),
     filename: "[name].bundle.js",
   },
+  devServer: {
+   static: './',
+    hot: true
+},
   module: {
     rules: [
       {
